@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icon-img.ico">
+    <title>Portfólio de Kassio Batista</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="loader" class="loader"> <!--Animação durante o carregamento da página-->
+        <div class="circle"></div>
+    </div>
+    <div class="gradient"> <!--Background animado-->
+        <div class="layer top-left"></div>
+        <div class="layer top-right"></div>
+        <div class="layer bottom-left"></div>
+        <div class="layer bottom-right"></div>
+    </div>
+    <header>
+        <nav class="navbar"> <!--Navbar responsiva contendo lista de links-->
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                <li class="navbar-item"><a href="#curriculum" class="navbar-link">Currículo</a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-link">Sobre</a></li>
+                <li class="navbar-item"><a href="#works" class="navbar-link">Projetos</a></li>
+            </ul>
+            <div class="arrow">
+                <i class="fa-solid fa-sort-down arrow-btn"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home"> <!--Seção 'homepage' contendo imagem, descrição e botões call to action-->
+            <div class="home-container">
+                <img src="./assets/home-img.png" alt="Avatar de Kassio Batista" class="home-img">
+                <div class="home-content">
+                    <h1 class="title">
+                        Eleve seu negócio digital<br>com <span class="title-strong dynamic">Criatividade</span>
+                    </h1>
+                    <p class="text">
+                        Olá! Sou Kassio Batista, desenvolvedor Front-end com especialidade em
+                        <span class="text-strong"> CSS e Javascript</span>.
+                        <br>Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
+                    </p>
+                    <h2 class="title small">Acesse minhas redes :D</h2>
+                    <div class="media">
+                        <a href="https://www.github.com/" class="media-btn">
+                            <i class="fa-brands fa-github media-btn-icon"></i>
+                            <p class="media-btn-text">Github</p>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="media-btn">
+                            <i class="fa-brands fa-linkedin-in media-btn-icon"></i>
+                            <p class="media-btn-text">Linkedin</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="curriculum"> <!--Seção 'curriculum' contendo informações sobre formação acadêmica e skills-->
+            <div class="curriculum-container">
+                <div class="courses">
+                    <div class="curriculum-top">
+                        <h2 class="title small">Formação academica</h2>
+                        <i class="fa-regular fa-bookmark curriculum-icon"></i>
+                    </div>
+                    <ul class="courses-list">
+                        <li class="courses-item">
+                            <p class="courses-item-title">Curso superior: Análise e desenvolvimento de sistemas</p>
+                            <p class="courses-item-text">FIAP</p>
+                        </li>
+                        <li class="courses-item">
+                            <p class="courses-item-title">HTML e CSS para projetos web</p>
+                            <p class="courses-item-text">Alura Cursos</p>
+                        </li>
+                        <li class="courses-item">
+                            <p class="courses-item-title">Aprofundamento em CSS</p>
+                            <p class="courses-item-text">Alura Cursos</p>
+                        </li>
+                        <li class="courses-item">
+                            <p class="courses-item-title">Javascript para aplicações web</p>
+                            <p class="courses-item-text">Alura Cursos</p>
+                        </li>
+                        <li class="courses-item">
+                            <p class="courses-item-title">Javascript orientado a objetos</p>
+                            <p class="courses-item-text">Alura Cursos</p>
+                        </li>
+                        <li class="courses-item">
+                            <p class="courses-item-title">React</p>
+                            <p class="courses-item-text">Alura Cursos</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <div class="curriculum-top">
+                        <h2 class="title small">Skills em programação</h2>
+                        <i class="fa-solid fa-code curriculum-icon"></i>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <p class="skills-item-title">HTML</p>
+                            <div class="skills-item-bar">
+                                <div progress="70%" style="max-width:70%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">CSS</p>
+                            <div class="skills-item-bar">
+                                <div progress="70%" style="max-width:70%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">Javascript</p>
+                            <div class="skills-item-bar">
+                                <div progress="50%" style="max-width:50%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">Python</p>
+                            <div class="skills-item-bar">
+                                <div progress="30%" style="max-width:30%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">Java</p>
+                            <div class="skills-item-bar">
+                                <div progress="30%" style="max-width:30%" class="progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="curriculum-top">
+                        <h2 class="title small">Skills em design</h2>
+                        <i class="fa-solid fa-crop-simple curriculum-icon"></i>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <p class="skills-item-title">Adobe Illustrator</p>
+                            <div class="skills-item-bar">
+                                <div progress="70%" style="max-width:70%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">Adobe Photoshop</p>
+                            <div class="skills-item-bar">
+                                <div progress="70%" style="max-width:70%" class="progress"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <p class="skills-item-title">Figma</p>
+                            <div class="skills-item-bar">
+                                <div progress="70%" style="max-width:70%" class="progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="about"> <!--Seção 'about' contendo descrição e imagem-->
+            <div class="about-container">
+                <div class="about-content">
+                    <h1 class="title">Sobre<span class="title-strong"> mim.</span></h1>
+                    <p class="text">
+                        Sou estudante e entusiasta apaixonado por programação. Acredito que a tecnologia é a melhor ferramenta para mudar a vida das pessoas ao nosso redor e trazer a tona nossa melhor versão.
+                    </p>
+                    <p class="text">
+                        Busco conhecimento diariamente, estudando tecnologias como Python e Java, além de colocar em prática meu aprendizado em Front-end desenvolvendo projetos com CSS e Javascript.
+                    </p>
+                    <p class="text">
+                        Sou uma pessoa focada e criativa. Assim como o mundo da tecnologia, estou em constante evolução!
+                    </p>
+                </div>
+                <img src="./assets/about-img.png" alt="Avatar de Kassio Batista" class="about-img">
+            </div>
+        </section>
+        <section id="works"> <!--Seção 'works' contendo descrição e cards-->
+            <div class="works-container">
+                <h1 class="title">Confira os meus<span class="title-strong"> Projetos.</span></h1>
+                <p class="text">
+                    Descubra minha abordagem criativa para resolver desafios de design e interatividade.
+                    <br>Cada projeto representa não apenas linhas de código, mas também a narrativa de como enfrentei e superei obstáculos para entregar resultados excepcionais!
+                </p>
+                <div class="works-cards">
+                    <a href="https://www.github.com/" class="works-card">
+                        <img src="./assets/works-card-img1.jpg" class="works-card-img">
+                        <div class="works-card-bottom">
+                            <p class="works-card-title">CoffeeLab</p>
+                            <p class="works-card-text">Delivery de café</p>
+                        </div>
+                    </a>
+                    <a href="https://www.github.com/" class="works-card">
+                        <img src="./assets/works-card-img2.jpg" class="works-card-img">
+                        <div class="works-card-bottom">
+                            <p class="works-card-title">SoundBox</p>
+                            <p class="works-card-text">Streaming de músicas</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Kassio Batista.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/57019a9767.js" crossorigin="anonymous"></script>
+</body>
+</html>
